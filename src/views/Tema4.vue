@@ -58,7 +58,7 @@
         p.text-center.mb-0 Corresponde a un estado profundo de pérdida de conciencia en el que la persona no puede despertarse y no presenta respuestas voluntarias adecuadas ante estímulos externos.
 
     //- Caja #A1B4FF de 728x276 con la lista de viñetas amarillas y el panel #F3F9FF de 499x276.
-    .row.align-items-stretch.g-0.mt-4
+    .row.align-items-stretch.g-0.mt-4.mb-4
       .col-lg-7.mb-4.mb-lg-0
         .bg-2-v.p-4.h-100(data-aos="fade-right")
           p.mb-3
@@ -73,6 +73,8 @@
       .col-lg-5
         figure.mb-0.h-100
           img(src="@/assets/curso/temas/t4/ilus-1.png").w-100.h-100.object-fit-cover
+    
+    p.mb-4 El estado de conciencia puede verse afectado por diferentes situaciones, entre ellas enfermedades, infecciones, alteraciones metabólicas, efectos de medicamentos, consumo de sustancias, traumatismos, falta de oxígeno o cambios importantes en el estado de salud. Por esta razón, un cambio repentino en el nivel de conciencia debe considerarse una situación que requiere atención oportuna.
 
     //- Foto de 483x275 en (195,1813) y el `.cajon` de 708x199 con la pestaña en (707,1805).
     .row.mt-4
