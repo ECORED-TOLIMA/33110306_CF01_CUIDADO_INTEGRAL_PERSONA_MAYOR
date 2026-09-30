@@ -47,7 +47,8 @@ export default {
           },
           {
             numero: '1.3',
-            titulo: 'Guías y protocolos vigentes para la atención a personas mayores',
+            titulo:
+              'Guías y protocolos vigentes para la atención a personas mayores',
             hash: 't_1_3',
           },
           {
@@ -160,7 +161,8 @@ export default {
           },
           {
             numero: '7.2',
-            titulo: 'Precauciones universales y elementos de protección personal',
+            titulo:
+              'Precauciones universales y elementos de protección personal',
             hash: 't_7_2',
           },
         ],
@@ -289,7 +291,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/33110306_CF01_CFA_DU.pdf',
+        download: 'downloads/33110306_CF01_CFA.pdf',
       },
       {
         icono: 'fas fa-download',
