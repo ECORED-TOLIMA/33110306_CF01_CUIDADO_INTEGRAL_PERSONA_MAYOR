@@ -125,19 +125,31 @@
               p.text-center.mb-0 Frotar las palmas entre sí.
             .tarjeta.bg-3-vc.r-20.p-4.h-100
               figure.mb-3
-                img(src="@/assets/curso/temas/t9/tec-4.svg" style="width: 96px").m-auto
-              p.text-center.mb-0 Frotar las puntas de los dedos y las uñas sobre la palma de la mano contraria.
+                img(src="@/assets/curso/temas/t9/tec-8.svg" style="width: 96px").m-auto
+              p.text-center.mb-0 Frotar el dorso de cada mano con la palma de la mano contraria.
+            .tarjeta.bg-3-vc.r-20.p-4.h-100
+              figure.mb-3
+                img(src="@/assets/curso/temas/t9/tec-9.svg" style="width: 96px").m-auto
+              p.text-center.mb-0 Limpiar los espacios entre los dedos, entrelazándolos.
+            .tarjeta.bg-3-vc.r-20.p-4.h-100
+              figure.mb-3
+                img(src="@/assets/curso/temas/t9/tec-10.svg" style="width: 96px").m-auto
+              p.text-center.mb-0 Frotar los pulgares mediante movimientos rotatorios.
             .tarjeta.bg-3-vc.r-20.p-4.h-100
               figure.mb-3
                 img(src="@/assets/curso/temas/t9/tec-5.svg" style="width: 96px").m-auto
-              p.text-center.mb-0 Enjuagar completamente con agua.
+              p.text-center.mb-0 Frotar las puntas de los dedos y las uñas sobre la palma de la mano contraria.
             .tarjeta.bg-3-vc.r-20.p-4.h-100
               figure.mb-3
                 img(src="@/assets/curso/temas/t9/tec-6.svg" style="width: 96px").m-auto
-              p.text-center.mb-0 Secar las manos con una toalla limpia o un medio adecuado.
+              p.text-center.mb-0 Enjuagar completamente con agua.
             .tarjeta.bg-3-vc.r-20.p-4.h-100
               figure.mb-3
                 img(src="@/assets/curso/temas/t9/tec-7.svg" style="width: 96px").m-auto
+              p.text-center.mb-0 Secar las manos con una toalla limpia o un medio adecuado.
+            .tarjeta.bg-3-vc.r-20.p-4.h-100
+              figure.mb-3
+                img(src="@/assets/curso/temas/t9/tec-4.svg" style="width: 96px").m-auto
               p.text-center.mb-0 Evitar volver a contaminar las manos al finalizar, por ejemplo, mediante el contacto innecesario con superficies contaminadas.
 
     //- El XD dibuja el botón «Abrir video»; la URL es la que el `_DI` referencia en la

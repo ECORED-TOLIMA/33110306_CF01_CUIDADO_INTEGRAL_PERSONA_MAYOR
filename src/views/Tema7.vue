@@ -52,8 +52,8 @@
     //- flecha roja, texto a la izquierda y foto a la derecha, todo sobre un panel #E2EAFF de
     //- 1228x440 con las esquinas CUADRADAS; los otros cuatro están en el pasteboard. Ese
     //- contador es `SlyderB`, no `SlyderA`: `SlyderA` sólo tiene bullets (tipos a y b).
-    .bg-2-vc.p-4.p-md-5.mt-4(data-aos="fade-up")
-      SlyderB(:datos="principios")
+    .cajon.cajon.c01.p-5.mb-4
+      SlyderB(:datos="datosSlyder")
 
     p.mt-4(data-aos="fade-right") La aplicación de estos principios debe realizarse de manera constante y de acuerdo con el riesgo presente en cada actividad. La bioseguridad no consiste únicamente en utilizar elementos de protección personal; también requiere mantener hábitos de higiene, reconocer situaciones de riesgo y actuar de manera preventiva.
 
@@ -146,11 +146,7 @@
 export default {
   name: 'Tema7',
   data: () => ({
-    // `SlyderB` resuelve la ruta él solo con `require_src` (`resolverImagen`), así que aquí
-    // va la CADENA `@/assets/...`. Con `require(...)` —sintaxis de webpack— Vite no compila
-    // el componente y el slider se monta con CERO diapositivas, sin error visible en la
-    // página: `.slyder-b__slyde` devolvía 0 y el hueco quedaba en blanco.
-    principios: [
+    datosSlyder: [
       {
         titulo: 'Universalidad',
         texto:

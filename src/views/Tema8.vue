@@ -72,78 +72,152 @@
 
     p.mt-4(data-aos="fade-right") El cuidado cefalocaudal debe realizarse de manera organizada, sistemática y respetuosa, siguiendo una secuencia desde la cabeza hasta los pies. Antes de comenzar, es necesario preparar el entorno, disponer de los materiales y valorar las condiciones de la persona mayor. Durante todo el procedimiento se debe favorecer su participación de acuerdo con el nivel de autonomía y mantener una comunicación respetuosa.
 
+    .bg01.p-5.px-5.mb-4
+      .tarjeta.tarjeta--blanca.p-4
+        .row.aling-items-center
+          SlyderA(tipo="b")
+            .row
+              .col-lg-6.order-2.order-lg-1.mb-4.mb-md-0
+                h5 Antes de iniciar el procedimiento:
+                ul.lista-ul.mb-0
+                  li.mb-0
+                    i.lista-ul__vineta
+                    p.mb-0 Garantizar la privacidad de la persona mayor y mantener una temperatura confortable y una iluminación adecuada.
+                  li.mb-0
+                    i.lista-ul__vineta
+                    p.mb-0 Reunir los materiales necesarios: agua tibia, jabón neutro, toallas limpias, ropa limpia, hidratante y los elementos de protección personal que correspondan.
+                  li.mb-0
+                    i.lista-ul__vineta
+                    p.mb-0 Realizar la higiene de manos y utilizar los elementos de protección personal de acuerdo con el riesgo identificado.
+                  li.mb-0
+                    i.lista-ul__vineta
+                    p.mb-0 Explicar a la persona mayor qué se va a realizar y promover su participación según sus capacidades.
+                  li.mb-0
+                    i.lista-ul__vineta
+                    p.mb-0 Verificar las condiciones de movilidad y colaboración, así como la presencia de lesiones, zonas de presión o dispositivos médicos que deban tenerse en cuenta durante la higiene.
+              .col-lg-6.order-1.order-lg-2.mb-4.mb-md-4
+                figure
+                  img(src='@/assets/curso/temas/t8/foto-p1.png', alt='')
+            .row
+              .col-lg-6.order-2.order-lg-1.mb-4.mb-md-0
+                h5 La higiene se realiza siguiendo el orden cefalocaudal, avanzando de la cabeza hacia los pies:
+                ul.lista-ul.mb-0
+                  li.mb-0
+                    i.lista-ul__vineta
+                    p.mb-0 #[b Cabeza y rostro:] realizar la limpieza de manera suave, incluyendo rostro y cuello. Los ojos deben limpiarse cuidadosamente, evitando la fricción excesiva.
+                  li.mb-0
+                    i.lista-ul__vineta
+                    p.mb-0 #[b Miembros superiores:] limpiar hombros, brazos, manos y espacios entre los dedos. Secar cuidadosamente para evitar humedad residual.
+                  li.mb-0
+                    i.lista-ul__vineta
+                    p.mb-0 #[b Tórax y abdomen:] realizar la limpieza con movimientos suaves, prestando especial atención a los pliegues de la piel.
+                  li.mb-0
+                    i.lista-ul__vineta
+                    p.mb-0 #[b Miembros inferiores:] limpiar desde los muslos hasta los pies, incluyendo talones y espacios entre los dedos.
+                  li.mb-0
+                    i.lista-ul__vineta
+                    p.mb-0 #[b Zona genital y perineal:] realizar la higiene al final, con el propósito de disminuir el riesgo de contaminación cruzada.
+              .col-lg-6.order-1.order-lg-2.mb-4.mb-md-4
+                figure
+                  img(src='@/assets/curso/temas/t8/foto-p2.png', alt='Texto que describa la imagen')
+            .row
+              .col-lg-6.order-2.order-lg-1.mb-4.mb-md-0
+                p Una vez realizada la higiene, se debe secar completamente la piel, especialmente en los pliegues, para evitar la acumulación de humedad. Cuando esté indicado, puede aplicarse crema hidratante mediante un masaje suave, evitando las zonas enrojecidas o lesionadas. Posteriormente:
+                ul.lista-ul.mb-0
+                  li.mb-0
+                    i.lista-ul__vineta
+                    p.mb-0 Colocar ropa limpia y cómoda.
+                  li.mb-0
+                    i.lista-ul__vineta
+                    p.mb-0 Verificar que la persona mayor quede en una posición segura y confortable.
+                  li.mb-0
+                    i.lista-ul__vineta
+                    p.mb-0 Organizar el entorno y retirar los materiales utilizados.
+                  li.mb-0
+                    i.lista-ul__vineta
+                    p.mb-0 Desechar, limpiar o desinfectar los elementos empleados según corresponda.
+                  li.mb-0
+                    i.lista-ul__vineta
+                    p.mb-0 Realizar nuevamente la higiene de manos.
+                  li.mb-0
+                    i.lista-ul__vineta
+                    p.mb-0 Registrar los hallazgos relevantes cuando se requiera seguimiento.
+              .col-lg-6.order-1.order-lg-2.mb-4.mb-md-4
+                figure
+                  img(src='@/assets/curso/temas/t8/foto-p3.png', alt='Texto que describa la imagen')
+
     //- Tres pasos con su foto: el XD dibuja el primero y deja los otros dos en el pasteboard.
-    SlyderA.mt-4(tipo="b")
-      .row.align-items-center
-        .col-lg-6.mb-4.mb-lg-0
-          p.mb-2
-            b Antes de iniciar el procedimiento:
-          ul.lista-ul.mb-0
-            li
-              i.fas.fa-circle
-              | Garantizar la privacidad de la persona mayor y mantener una temperatura confortable y una iluminación adecuada.
-            li
-              i.fas.fa-circle
-              | Reunir los materiales necesarios: agua tibia, jabón neutro, toallas limpias, ropa limpia, hidratante y los elementos de protección personal que correspondan.
-            li
-              i.fas.fa-circle
-              | Realizar la higiene de manos y utilizar los elementos de protección personal de acuerdo con el riesgo identificado.
-            li
-              i.fas.fa-circle
-              | Explicar a la persona mayor qué se va a realizar y promover su participación según sus capacidades.
-            li.mb-0
-              i.fas.fa-circle
-              | Verificar las condiciones de movilidad y colaboración, así como la presencia de lesiones, zonas de presión o dispositivos médicos que deban tenerse en cuenta durante la higiene.
-        .col-lg-6
-          figure.mb-0
-            img(src="@/assets/curso/temas/t8/foto-p1.png").w-100
-      .row.align-items-center
-        .col-lg-6.mb-4.mb-lg-0
-          p.mb-2 La higiene se realiza siguiendo el orden cefalocaudal, avanzando de la cabeza hacia los pies:
-          ul.lista-ul.mb-0
-            li
-              i.fas.fa-circle
-              | #[b Cabeza y rostro:] realizar la limpieza de manera suave, incluyendo rostro y cuello. Los ojos deben limpiarse cuidadosamente, evitando la fricción excesiva.
-            li
-              i.fas.fa-circle
-              | #[b Miembros superiores:] limpiar hombros, brazos, manos y espacios entre los dedos. Secar cuidadosamente para evitar humedad residual.
-            li
-              i.fas.fa-circle
-              | #[b Tórax y abdomen:] realizar la limpieza con movimientos suaves, prestando especial atención a los pliegues de la piel.
-            li
-              i.fas.fa-circle
-              | #[b Miembros inferiores:] limpiar desde los muslos hasta los pies, incluyendo talones y espacios entre los dedos.
-            li.mb-0
-              i.fas.fa-circle
-              | #[b Zona genital y perineal:] realizar la higiene al final, con el propósito de disminuir el riesgo de contaminación cruzada.
-        .col-lg-6
-          figure.mb-0
-            img(src="@/assets/curso/temas/t8/foto-p2.png").w-100
-      .row.align-items-center
-        .col-lg-6.mb-4.mb-lg-0
-          p.mb-2 Una vez realizada la higiene, se debe secar completamente la piel, especialmente en los pliegues, para evitar la acumulación de humedad. Cuando esté indicado, puede aplicarse crema hidratante mediante un masaje suave, evitando las zonas enrojecidas o lesionadas. Posteriormente:
-          ul.lista-ul.mb-0
-            li
-              i.fas.fa-circle
-              | Colocar ropa limpia y cómoda.
-            li
-              i.fas.fa-circle
-              | Verificar que la persona mayor quede en una posición segura y confortable.
-            li
-              i.fas.fa-circle
-              | Organizar el entorno y retirar los materiales utilizados.
-            li
-              i.fas.fa-circle
-              | Desechar, limpiar o desinfectar los elementos empleados según corresponda.
-            li
-              i.fas.fa-circle
-              | Realizar nuevamente la higiene de manos.
-            li.mb-0
-              i.fas.fa-circle
-              | Registrar los hallazgos relevantes cuando se requiera seguimiento.
-        .col-lg-6
-          figure.mb-0
-            img(src="@/assets/curso/temas/t8/foto-p1.png").w-100
+    //- SlyderA.mt-4(tipo="b")
+    //-   .row.align-items-center
+    //-     .col-lg-6.mb-4.mb-lg-0
+    //-       p.mb-2
+    //-         b Antes de iniciar el procedimiento:
+    //-       ul.lista-ul.mb-0
+    //-         li
+    //-           i.fas.fa-circle
+    //-           | 
+    //-         li
+    //-           i.fas.fa-circle
+    //-           | 
+    //-         li
+    //-           i.fas.fa-circle
+    //-           | 
+    //-         li
+    //-           i.fas.fa-circle
+    //-           | 
+    //-         li.mb-0
+    //-           i.fas.fa-circle
+    //-           | 
+    //-     .col-lg-6
+    //-       figure.mb-0
+    //-         img(src="@/assets/curso/temas/t8/foto-p1.png").w-100
+    //-   .row.align-items-center
+    //-     .col-lg-6.mb-4.mb-lg-0
+    //-       p.mb-2 La higiene se realiza siguiendo el orden cefalocaudal, avanzando de la cabeza hacia los pies:
+    //-       ul.lista-ul.mb-0
+    //-         li
+    //-           i.fas.fa-circle
+    //-           | 
+    //-         li
+    //-           i.fas.fa-circle
+    //-           | 
+    //-         li
+    //-           i.fas.fa-circle
+    //-           | 
+    //-         li
+    //-           i.fas.fa-circle
+    //-           | 
+    //-         li.mb-0
+    //-           i.fas.fa-circle
+    //-           | 
+    //-     .col-lg-6
+    //-       figure.mb-0
+    //-         img(src="@/assets/curso/temas/t8/foto-p2.png").w-100
+    //-   .row.align-items-center
+    //-     .col-lg-6.mb-4.mb-lg-0
+    //-       p.mb-2 Una vez realizada la higiene, se debe secar completamente la piel, especialmente en los pliegues, para evitar la acumulación de humedad. Cuando esté indicado, puede aplicarse crema hidratante mediante un masaje suave, evitando las zonas enrojecidas o lesionadas. Posteriormente:
+    //-       ul.lista-ul.mb-0
+    //-         li
+    //-           i.fas.fa-circle
+    //-           | 
+    //-         li
+    //-           i.fas.fa-circle
+    //-           | 
+    //-         li
+    //-           i.fas.fa-circle
+    //-           | 
+    //-         li
+    //-           i.fas.fa-circle
+    //-           | 
+    //-         li
+    //-           i.fas.fa-circle
+    //-           | 
+    //-         li.mb-0
+    //-           i.fas.fa-circle
+    //-           | 
+    //-     .col-lg-6
+    //-       figure.mb-0
+    //-         img(src="@/assets/curso/temas/t8/foto-p1.png").w-100
 
     p.mt-4(data-aos="fade-right") Durante todo el procedimiento, se debe observar el estado general de la persona mayor y comunicar oportunamente cualquier cambio o hallazgo que pueda requerir valoración por parte de un profesional de salud.
 

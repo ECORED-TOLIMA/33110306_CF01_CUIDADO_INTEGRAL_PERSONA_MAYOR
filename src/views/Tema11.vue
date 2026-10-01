@@ -152,7 +152,7 @@
     .row.align-items-center.mt-4
       .col-lg-6.mb-4.mb-lg-0
         figure.mb-0
-          img(src="@/assets/curso/temas/t11/ilus-1.png").w-100
+          img(src="@/assets/curso/temas/t11/ilus-1.png")
       .col-lg-6
         LineaTiempoD.color-1(data-aos="fade-left")
           .row(numero="1" titulo="Variedad")
@@ -531,19 +531,19 @@
       .col-lg-5.mb-4.mb-lg-0
         .bg-2-vc.p-4.h-100(data-aos="fade-right")
           ol.lista-ol--cuadro.lista-ol--separador.mb-0
-            li
+            li.mb-4
               .lista-ol--cuadro__vineta
                 span 1
               | Tos persistente.
-            li
+            li.mb-4
               .lista-ol--cuadro__vineta
                 span 2
               | Cambios en la voz después de comer o beber.
-            li
+            li.mb-4
               .lista-ol--cuadro__vineta
                 span 3
               | Dificultad para respirar.
-            li
+            li.mb-4
               .lista-ol--cuadro__vineta
                 span 4
               | Dificultad evidente para completar la deglución.
@@ -553,7 +553,7 @@
               | Cambios importantes en el estado general.
       .col-lg-5
         figure.mb-0
-          img(src="@/assets/curso/temas/t11/foto-degl.png").w-100.r-10
+          img(src="@/assets/curso/temas/t11/foto-degl.png")
 
     p.mt-4(data-aos="fade-right") Ante estas situaciones, se debe actuar de acuerdo con los protocolos establecidos y comunicar oportunamente al profesional correspondiente.
 

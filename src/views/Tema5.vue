@@ -118,7 +118,7 @@
 
     .row.mt-4
       .col-lg-7.mb-4.mb-lg-0
-        .cajon.color-1.p-4(data-aos="fade-right")
+        .cajon.color-1.px-4.py-2(data-aos="fade-right")
           p.mb-0 Cuando se presenten cambios repentinos o señales de alerta, como dificultad para respirar, dolor intenso, alteraciones de la conciencia o la orientación, debilidad marcada, caídas, lesiones o cambios importantes en el comportamiento, debe informar oportunamente y solicitar la atención correspondiente, de acuerdo con los protocolos establecidos.
         p.mt-4.mb-0(data-aos="fade-right") El cuidado debe ser proporcional a las capacidades de la persona mayor. Siempre que sea posible, se debe favorecer su participación en las actividades que pueda realizar de manera segura, evitando sustituir innecesariamente sus capacidades. De esta manera, el cuidador contribuye a preservar la autonomía, la dignidad y la calidad de vida de la persona mayor.
       .col-lg-5
@@ -222,10 +222,10 @@
             figure.mb-0
               img(src="@/assets/curso/temas/t5/ic-3.svg" style="width: 84px")
           .col
-            .bg-3-vc.p-3
+            .bg-3-vc.px-3.py-2
               p.mb-0 La vacunación también constituye una medida importante para prevenir algunas enfermedades transmisibles. El cuidador puede contribuir al cumplimiento del esquema de vacunación vigente y facilitar el acceso a los servicios de salud cuando corresponda.
         p.mt-4(data-aos="fade-right") Es importante recordar que el cuidador no diagnostica la infección ni modifica por cuenta propia los medicamentos o tratamientos. Su responsabilidad consiste en aplicar las medidas de protección correspondientes, brindar el apoyo requerido, observar los cambios en el estado de la persona y comunicar oportunamente cualquier situación relevante.
-        .cajon.color-1.p-4(data-aos="fade-right")
+        .cajon.color-1.px-4.py-3(data-aos="fade-right")
           p.mb-0 Ante signos como dificultad para respirar, alteraciones repentinas de la conciencia o la orientación, debilidad marcada, vómitos o diarrea persistentes, signos de deshidratación, fiebre u otros cambios importantes, se debe solicitar valoración por parte del personal de salud de acuerdo con los protocolos establecidos.
       .col-lg-4
         figure.mb-0
