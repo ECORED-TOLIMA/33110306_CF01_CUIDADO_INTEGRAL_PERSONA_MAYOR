@@ -435,7 +435,7 @@
               p.mb-0 Prestar atención a las dificultades que puedan presentarse durante la preparación o el consumo de los alimentos y comunicarlas oportunamente.
       .col-lg-6
         figure.mb-0
-          img(src="@/assets/curso/temas/t11/ilus-6.png").w-100
+          img(src="@/assets/curso/temas/t11/ilus-6.png")
 
     .row.justify-content-center.mt-4
       .col-lg-10

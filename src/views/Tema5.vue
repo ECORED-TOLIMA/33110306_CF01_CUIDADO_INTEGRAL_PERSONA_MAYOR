@@ -212,6 +212,34 @@
               figure.mb-3
                 img(src="@/assets/curso/temas/t5/car2-2.svg" style="width: 96px").m-auto
               p.text-center.mb-0 Informar oportunamente los signos o síntomas relevantes a la persona responsable o al profesional de salud.
+            .tarjeta.bg-3-vc.r-20.p-4.h-100
+              figure.mb-3
+                img(src="@/assets/curso/temas/t5/car2-3.svg" style="width: 96px").m-auto
+              p.text-center.mb-0 Mantener una adecuada higiene de manos antes y después del contacto con la persona mayor y después de manipular elementos potencialmente contaminados.
+            .tarjeta.bg-3-vc.r-20.p-4.h-100
+              figure.mb-3
+                img(src="@/assets/curso/temas/t5/car2-4.svg" style="width: 96px").m-auto
+              p.text-center.mb-0 Utilizar los elementos de protección personal cuando estén indicados según el riesgo y las actividades que se van a realizar.
+            .tarjeta.bg-3-vc.r-20.p-4.h-100
+              figure.mb-3
+                img(src="@/assets/curso/temas/t5/car2-5.svg" style="width: 96px").m-auto
+              p.text-center.mb-0 Evitar compartir objetos de uso personal cuando exista riesgo de transmisión.
+            .tarjeta.bg-3-vc.r-20.p-4.h-100
+              figure.mb-3
+                img(src="@/assets/curso/temas/t5/car2-6.svg" style="width: 96px").m-auto
+              p.text-center.mb-0 Mantener limpios y desinfectados los elementos y superficies que puedan estar contaminados.
+            .tarjeta.bg-3-vc.r-20.p-4.h-100
+              figure.mb-3
+                img(src="@/assets/curso/temas/t5/car2-7.svg" style="width: 96px").m-auto
+              p.text-center.mb-0 Favorecer la ventilación de los espacios, especialmente cuando existen síntomas respiratorios.
+            .tarjeta.bg-3-vc.r-20.p-4.h-100
+              figure.mb-3
+                img(src="@/assets/curso/temas/t5/car2-8.svg" style="width: 96px").m-auto
+              p.text-center.mb-0 Limitar temporalmente el contacto con otras personas cuando las condiciones de salud o las indicaciones sanitarias así lo requieran.
+            .tarjeta.bg-3-vc.r-20.p-4.h-100
+              figure.mb-3
+                img(src="@/assets/curso/temas/t5/car2-9.svg" style="width: 96px").m-auto
+              p.text-center.mb-0 Seguir las indicaciones del personal de salud y los protocolos establecidos.
 
     p.mt-4(data-aos="fade-right") La prevención de las enfermedades contagiosas requiere la aplicación conjunta de diferentes medidas. La higiene de manos, la limpieza y desinfección de superficies, la ventilación adecuada y el cumplimiento de las medidas de protección indicadas contribuyen a disminuir el riesgo de transmisión.
 
