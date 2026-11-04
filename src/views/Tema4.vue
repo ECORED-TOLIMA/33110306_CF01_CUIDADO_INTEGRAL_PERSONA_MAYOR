@@ -63,13 +63,25 @@
         .bg-2-v.p-4.h-100(data-aos="fade-right")
           p.mb-3
             b Durante el cuidado cotidiano, además del nivel de alerta, es importante detectar otros aspectos relacionados con el estado de conciencia:
-          ul.lista-ul.lista-ul--vineta.mb-0
-            li Capacidad para mantener los ojos abiertos y permanecer despierta.
-            li Respuesta a estímulos verbales y físicos.
-            li Capacidad para comprender y responder preguntas.
-            li Orientación respecto a sí misma, el lugar y el momento.
-            li Cambios repentinos en el comportamiento o la interacción.
-            li.mb-0 Presencia de confusión, desorientación o respuestas diferentes a las habituales.
+          ul.lista-ul--color.mb-0
+            li 
+              i.fas.fa-thumbs-up
+              p.mb-0  Capacidad para mantener los ojos abiertos y permanecer despierta.
+            li
+              i.fas.fa-thumbs-up
+              p.mb-0 Respuesta a estímulos verbales y físicos.
+            li
+              i.fas.fa-thumbs-up
+              p.mb-0 Capacidad para comprender y responder preguntas.
+            li
+              i.fas.fa-thumbs-up
+              p.mb-0 Orientación respecto a sí misma, el lugar y el momento.
+            li
+              i.fas.fa-thumbs-up
+              p.mb-0 Cambios repentinos en el comportamiento o la interacción.
+            li
+              i.fas.fa-thumbs-up
+              p.mb-0 Presencia de confusión, desorientación o respuestas diferentes a las habituales.
       .col-lg-5
         figure.mb-0.h-100
           img(src="@/assets/curso/temas/t4/ilus-1.png").w-100.h-100.object-fit-cover

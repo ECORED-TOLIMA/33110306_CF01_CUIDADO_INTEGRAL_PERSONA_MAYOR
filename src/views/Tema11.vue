@@ -568,13 +568,25 @@
         .bg-2.p-4(data-aos="fade-up")
           p.mb-3
             b Para favorecer su participación se pueden considerar:
-          ul.lista-ul.lista-ul--vineta-t11.mb-0
-            li Ubicar los alimentos y utensilios al alcance de la persona.
-            li Utilizar utensilios adaptados, cuando estén indicados, como cubiertos con mangos gruesos, platos antideslizantes o vasos con tapa.
-            li Facilitar una postura estable y cómoda.
-            li Permitir que la persona realice las acciones que pueda ejecutar por sí misma.
-            li Brindar ayuda únicamente en las acciones que requieran apoyo.
-            li.mb-0 Respetar el ritmo de alimentación y evitar apresurar el proceso.
+          ul.lista-ul--color.mb-0
+            li 
+              i.fas.fa-thumbs-up
+              p.mb-0 Ubicar los alimentos y utensilios al alcance de la persona.
+            li
+              i.fas.fa-thumbs-up
+              p.mb-0 Utilizar utensilios adaptados, cuando estén indicados, como cubiertos con mangos gruesos, platos antideslizantes o vasos con tapa.
+            li
+              i.fas.fa-thumbs-up
+              p.mb-0 Facilitar una postura estable y cómoda.
+            li
+              i.fas.fa-thumbs-up
+              p.mb-0 Permitir que la persona realice las acciones que pueda ejecutar por sí misma.
+            li
+              i.fas.fa-thumbs-up
+              p.mb-0 Brindar ayuda únicamente en las acciones que requieran apoyo.
+            li
+              i.fas.fa-thumbs-up
+              p.mb-0.mb-0 Respetar el ritmo de alimentación y evitar apresurar el proceso.
 
     //- El XD acompaña estos dos bloques con la foto de 486x229 en (193,11950) a la izquierda.
     //- Faltaba entera. Hallazgo 53 del revisor, «faltan imágenes acompañantes en dos párrafos».

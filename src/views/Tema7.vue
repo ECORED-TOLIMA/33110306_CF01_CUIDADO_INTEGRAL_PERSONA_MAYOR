@@ -36,12 +36,22 @@
         .bg-2.p-4.h-100(data-aos="fade-right")
           p.mb-3
             b En el cuidado cotidiano, la bioseguridad tiene como objetivos:
-          ul.lista-ul.lista-ul--vineta-t7.mb-0
-            li Prevenir la transmisión de infecciones durante las actividades de cuidado.
-            li Reducir el riesgo de exposición a sangre, secreciones, excreciones y otros fluidos corporales.
-            li Mantener condiciones adecuadas de higiene y limpieza en el entorno y los elementos utilizados.
-            li Promover prácticas seguras en la manipulación de residuos, ropa y materiales.
-            li.mb-0 Proteger tanto a la persona mayor como al cuidador durante las actividades que impliquen algún riesgo de contaminación.
+          ul.lista-ul--color.mb-0
+            li 
+              i.fas.fa-thumbs-up
+              p.mb-0 Prevenir la transmisión de infecciones durante las actividades de cuidado.
+            li
+              i.fas.fa-thumbs-up
+              p.mb-0 Reducir el riesgo de exposición a sangre, secreciones, excreciones y otros fluidos corporales.
+            li
+              i.fas.fa-thumbs-up
+              p.mb-0 Mantener condiciones adecuadas de higiene y limpieza en el entorno y los elementos utilizados.
+            li
+              i.fas.fa-thumbs-up
+              p.mb-0 Promover prácticas seguras en la manipulación de residuos, ropa y materiales.
+            li
+              i.fas.fa-thumbs-up
+              p.mb-0 Proteger tanto a la persona mayor como al cuidador durante las actividades que impliquen algún riesgo de contaminación.
       .col-lg-4
         figure.mb-0.h-100
           img(src="@/assets/curso/temas/t7/ilus-1.png").w-100.h-100.object-fit-cover
